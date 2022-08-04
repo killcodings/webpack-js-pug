@@ -1,0 +1,35 @@
+include pug/libs/_libs
+
+doctype html
+html(lang='en')
+    include pug/_head
+    body.page
+        .site
+            header.header
+            main.site-main
+                .container
+                    h1 Hello from Webpack
+                    h2.container__subtitle Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, ipsam!
+                    +image('angular')
+                    +image('webpack')
+                    .block
+                    .user
+                    section.examples
+                        table.example-table
+                            thead.example-table__header
+                                th 1
+                                th 2
+                                th 3
+                                th 4
+                                tbody.example-table__body
+                                    tr.example-table__row
+                                        td.example-table__td
+                                            .example-table__copy
+                                                .example-table__copy-content 8888444555
+                                    tr.example-table__row
+                                    tr.example-table__row
+                                    tr.example-table__row
+
+
+
+

@@ -1,0 +1,55 @@
+$primaryColor: darkcyan;
+$secondaryColor: darkslategray;
+
+html {
+  font-family: generalFont;
+}
+
+h1 {
+  color: $primaryColor;
+}
+.container {
+  &__subtitle {
+    color: $secondaryColor;
+    display: block;
+    height: 140px;
+    background: url("../images/webpack.png");
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.example-table {
+  display: flex;
+  flex-direction: column;
+  &__header {
+    tr {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: 1fr;
+      grid-gap: 20px;
+      gap: 20px;
+    }
+  }
+  &__body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    gap: 20px;
+  }
+  &__row {
+    padding: 20px;
+    background-color: rgba(255, 0, 0, 0.133);
+  }
+  &__copy {
+    &-content {
+      padding: 10px;
+      cursor: pointer;
+      background-color: greenyellow;
+      transition: 0.3s;
+      &:active {
+        background-color: rgb(61, 255, 47);
+      }
+    }
+  }
+}
