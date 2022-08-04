@@ -1,3 +1,6 @@
+```
+[Link](https://killcodings.github.io/webpack-js-pug/dist/ "")
+
 # Webpack template v.2
 Basic configuration of Webpack.
 
