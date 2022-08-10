@@ -53,3 +53,10 @@ h1 {
     }
   }
 }
+
+.section-heading h2:first-child {
+  background-color: red !important;
+}
+.conteiner + h2 {
+  background-color: green;
+}

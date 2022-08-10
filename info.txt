@@ -1,5 +1,6 @@
 https://youtu.be/gVenbqg9Rww
 https://github.com/vitalii-kopiievskiy/webpack-template
+https://youtu.be/RExghnAuEjs
 Пошаговое описание принципов работы Webpack, создания проектов, установка необходимых пакетов, настройка webpack 5. Обработка html, css, scss, sass, pug, images, fonts. Подключение jQuery, bootstrap, babel-loader.
 
 В конфигурацию Webpack внесены изменения в связи с выходом новой  webpack-dev-server версии 4 и выше:
@@ -63,6 +64,8 @@ https://github.com/vitalii-kopiievskiy/webpack-template
 
 
 
+
+md разметка https://dillinger.io/
 
 
 
