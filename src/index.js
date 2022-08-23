@@ -57,18 +57,18 @@ let isSection = document.querySelectorAll(".section-heading");
     let isHeadingDiv = e.querySelector("section div h2");
     console.log(isHeadingSection);
     if (isHeadingSection === null || isHeadingSection == "" || isHeadingDiv) {
-        let headindTitle = document.createElement('h2');
-        headindTitle.className = "title";
-        headindTitle.textContent = "heading section";
-        e.prepend(headindTitle);
-        headindTitle.style.position = "absolute";
-        headindTitle.style.clip = "rect(1px, 1px, 1px, 1px)";
-        headindTitle.style.clipPath = "inset(0px 0px 99.9% 99.9%)";
-        headindTitle.style.overflow = "hidden";
-        headindTitle.style.height = "1px";
-        headindTitle.style.width = "1px";
-        headindTitle.style.padding = 0;
-        headindTitle.style.margin = 0;
-        headindTitle.style.border = 0;
+        let headingTitle = document.createElement('h2');
+        headingTitle.className = "title";
+        headingTitle.textContent = "heading section";
+        e.prepend(headingTitle);
+        headingTitle.style.position = "absolute";
+        headingTitle.style.clip = "rect(1px, 1px, 1px, 1px)";
+        headingTitle.style.clipPath = "inset(0px 0px 99.9% 99.9%)";
+        headingTitle.style.overflow = "hidden";
+        headingTitle.style.height = "1px";
+        headingTitle.style.width = "1px";
+        headingTitle.style.padding = 0;
+        headingTitle.style.margin = 0;
+        headingTitle.style.border = 0;
     }
 })

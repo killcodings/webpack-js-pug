@@ -31,7 +31,7 @@ html(lang='en')
                                             section.section-heading
                                  
                                                 .conteiner 
-                                                    //- h2 container
+                                                    h2 container
                                       
                                                 
                                             section.section-heading
@@ -41,7 +41,54 @@ html(lang='en')
                                                     h2 
                                                    
                                     tr.example-table__row
+                                        td 
+                                            pre
+                                                code
+                                                    | function checkAge(age) {
+                                                    |    if(age &#10614; 18) {
+                                                    |        const message = "Sorry";
+                                                    |    } else {
+                                                    |        const message = "Yes";
+                                                    |    }
+                                                    |    return message;
+                                                    |}
+                                                    |console.log(checkAge(21))
+                                            pre
+                                                code.
+                                                    function() {
+                                                        console.log('Hello world!')
+                                                    }    
                                     tr.example-table__row
+                                        td 
+                                            pre
+                                                code.
+                                                    function outer() {
+                                                        var a = 1;
+
+                                                        function inner() {
+                                                            var b = 2;
+
+                                                            // здесь у нас есть доступ и к `a`, и к `b`
+                                                            console.log( a + b );	// 3
+                                                        }
+
+                                                        inner();
+
+                                                        // здесь у нас есть доступ только к  `a`
+                                                        console.log( a );			// 1
+                                                    }
+
+                                                    outer(); // 3 // 1
+                                    tr.example-table__row
+                                        td 
+                                            div Какая опция позволяет установить hasName равным true, если вы не можете передать true в качестве аргумента?
+                                            pre
+                                                code.
+                                                    function getName(name) {
+                                                        const hasName = // !!name
+                                                    }
+
+                                                    outer(); // 3 // 1
 
 
 
